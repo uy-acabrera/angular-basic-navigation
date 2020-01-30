@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+
+  .menu-item {
+    padding: 10px;
+    transition: color 0.5s, background-color 0.5s;
+    outline: none;
+  }
+
+  .menu-item:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  .header {
+    height: 40px;
+  }
+
+  .content {
+    height: 100%;
+  }
+
+  .footer {
+    height: 30px;
+    text-align: center;
+  }
+}
